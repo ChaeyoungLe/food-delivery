@@ -12,11 +12,4 @@ public class Paid extends AbstractEvent {
     private Long id;
     private String orderId;
     private Integer pay;
-
-    public Paid(Payment aggregate){
-        super(aggregate);
-    }
-    public Paid(){
-        super();
-    }
 }

@@ -16,11 +16,4 @@ public class OrderCanceled extends AbstractEvent {
     private String preference;
     private String address;
     private String status;
-
-    public OrderCanceled(Order aggregate){
-        super(aggregate);
-    }
-    public OrderCanceled(){
-        super();
-    }
 }

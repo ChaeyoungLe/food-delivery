@@ -16,11 +16,4 @@ public class Rejected extends AbstractEvent {
     private String orderId;
     private String address;
     private String status;
-
-    public Rejected(Order aggregate){
-        super(aggregate);
-    }
-    public Rejected(){
-        super();
-    }
 }
